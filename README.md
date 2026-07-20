@@ -1,12 +1,149 @@
-# React + Vite
+# 🍔 Food Delivery Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive food delivery web application built using **React.js**. This application provides a seamless food ordering experience with user authentication, menu browsing, cart management, and order tracking by integrating with a Spring Boot REST API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 User Authentication (Login & Register)
+- 🍕 Browse Food Menu
+- 🔍 Search Food Items
+- 🛒 Add to Cart & Manage Cart
+- 💳 Place Orders
+- 📦 View Order History
+- 👤 User Profile
+- 📱 Responsive Design
+- 🔄 REST API Integration with Spring Boot Backend
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- React Router DOM
+- Axios
+- Context API
+
+---
+
+## 📁 Project Structure
+
+```
+food-delivery-frontend
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/food-delivery-frontend.git
+```
+
+Navigate to the project
+
+```bash
+cd food-delivery-frontend
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔗 Backend Repository
+
+This frontend communicates with a Spring Boot REST API.
+
+Update the API base URL in your Axios configuration before running the project.
+
+Example:
+
+```javascript
+http://localhost:8080
+```
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here after deployment.
+
+Example:
+
+- Home Page
+- Login Page
+- Food Menu
+- Cart
+- Checkout
+- Orders
+
+---
+
+## 🔮 Future Enhancements
+
+- Live Order Tracking
+- Online Payment Integration
+- Google Maps Integration
+- Push Notifications
+- Wishlist
+- Admin Dashboard
+- Restaurant Management
+- Delivery Partner Tracking
+
+---
+
+## 👨‍💻 Author
+
+**P. Sri Anjan Kumar Goud**
+
+- Java Full Stack Developer
+- React.js Developer
+- Spring Boot Developer
+
+GitHub: https://github.com/your-username
+
+LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
+
+---
+
+## 📄 License
+
+This project is developed for learning, portfolio, and demonstration purposes.
+
+
