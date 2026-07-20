@@ -136,9 +136,7 @@ Example:
 - React.js Developer
 - Spring Boot Developer
 
-GitHub: https://github.com/your-username
 
-LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
 
 ---
 
